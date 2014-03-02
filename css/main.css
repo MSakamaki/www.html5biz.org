@@ -41,6 +41,18 @@ h1.welcome_message {
 .event_table dd {
 	margin-left: 120px;
 }
+/* event_table
+------------------------------------*/
+ .session_table {
+	padding: 7px;
+	border: 1px solid #dddddd;
+	border-collapse: separate;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
 /* lecture
 ------------------------------------*/
 .summary {
@@ -91,6 +103,14 @@ h1.welcome_message {
 
 /* labels
 ------------------------------------*/
+.label_conference_html5biz {
+	padding-left:19px;
+	background: url(../img/html5biz.jpg);
+	background-repeat : no-repeat;
+	background-position : 1px;
+	background-color: #191970;
+}
+
 .label_atnd {
 	background-color: #b94a48;
 }
@@ -109,6 +129,13 @@ h1.welcome_message {
 .label_googledoc {
     background-color: #000;
 }
+.label_pdf {
+    background-color: #DC143C;
+}
+.label_speakerdeck {
+    background-color: #228B22;
+}
+
 
 /* labels
 ------------------------------------*/
